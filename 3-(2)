@@ -1,0 +1,43 @@
+MNIST란
+
+OCR (Optical Character Recognition)
+이미지 속 글자를 컴퓨터가 읽을 수 있는 디지털 텍스트로 변환하는 기술
+
+MNIST 데이터셋
+MNIST = Modified National Institute of Standards and Technology
+용도  :    숫자(0~9) 손글씨 인식 학습에 사용
+데이터 :  28×28 픽셀 흑백 이미지 7만 장
+특징  :    딥러닝 입문자들이 가장 먼저 접하는 표준 데이터셋
+
+
+
+셀프 체크 — 03-2 손글씨 인식 프로그램
+(교재 p.111~112)
+
+문제 1. 클로드 코드를 실행할 작업 폴더로 이동하는 방법이 아닌 것을 고르세요.
+   1. 탐색기 주소창에 cmd를 입력하여 해당 폴더에서 터미널 실행
+   2. 터미널을 실행한 뒤 cd 명령어로 원하는 폴더로 이동
+   3. 클로드 코드가 자동으로 최적 폴더를 선택
+   4. 원하는 폴더에서 마우스 오른쪽 버튼을 클릭해서 터미널 열기
+답 : 3
+
+문제 2. 손글씨 인식 프로그램 학습 과정에서 관찰할 수 있는 지표로 옳은 설명을 고르세요.
+   1. accuracy는 낮을수록 성능이 좋다.
+   2. loss는 높을수록 성능이 좋다.
+   3. accuracy는 높을수록, loss는 낮을수록 성능이 좋다.
+   4. 두 지표 모두 높을수록 성능이 좋다.
+답 : 3
+
+문제 3. 클로드 코드의 권한 설정 옵션이 아닌 것을 고르세요.
+   1. Ask every time (매번 확인)
+   2. Yes, for this session only (현재 세션만)
+   3. Always allow in this project (프로젝트 내 항상 허용)
+   4. Never allow modifications (수정 절대 불가)
+답 : 4
+
+
+*핵심키워드*
+OCR — 이미지 속 글자를 디지털 텍스트로 변환하는 기술
+MNIST — 0~9 손글씨 숫자 이미지 7만 장의 학습 데이터셋
+npm — Node.js의 패키지 관리자 (Node Package Manager)
+배치 파일(.bat) — 여러 명령어를 한 번에 실행하는 Windows 스크립트
