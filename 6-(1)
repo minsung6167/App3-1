@@ -18,15 +18,15 @@ API(Application Programming Interface)는 프로그램과 AI 모델을 이어주
 API 활용 예시: '냉장고를 부탁해'
 
 사용자 → [냉장고 사진 업로드] → 앱 → [API] → AI 모델(이미지 인식)
-									                                ↓
+									             ↓
 사용자 ← [레시피 추천 표시] ← 앱 ← [API] ← AI 모델(텍스트 생성)
 
 
 AI 모델을 사용하는 두 가지 방법
 
-	    방법				           설명					                  예시
+	 방법				       설명					         예시
 API 통합 플랫폼   	여러 AI 모델을 한곳에서 비교·선택   오픈라우터(OpenRouter)
-각 회사 공식 API 	특정 회사 API를 직접 연동		        OpenAI, Anthropic, Google
+각 회사 공식 API 	특정 회사 API를 직접 연동		      OpenAI, Anthropic, Google
 
 
 오픈라우터(OpenRouter)란?
