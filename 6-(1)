@@ -68,11 +68,11 @@ API 키 보안 규칙
 
 클로드 코드가 생성하는 파일들
 
-    파일				            역할
-.gitignore		  .env 파일이 Git에 커밋되지 않도록 보호
+    파일				         역할
+.gitignore		  	.env 파일이 Git에 커밋되지 않도록 보호
 .env.example		다른 개발자들을 위한 환경 변수 템플릿
 config.js		    환경 변수를 안전하게 로드하고 검증하는 유틸리티
-example.js		  OpenRouter API를 사용하는 예제 코드
+example.js		 	OpenRouter API를 사용하는 예제 코드
 package.json		Node.js 프로젝트 설정 파일
 
 
