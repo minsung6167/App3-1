@@ -25,9 +25,9 @@ AI 서브에이전트
 서브에이전트 vs 커스텀 명령어
 
    구분	          커스텀 명령어	                 서브에이전트
-   성격	      정해진 규칙에 따라 실행	     상황을 판단하여 유연하게 대응
+   성격	      정해진 규칙에 따라 실행	      상황을 판단하여 유연하게 대응
    비유	      레시피대로 따라하는 요리사    재료를 보고 창의적으로 요리하는 셰프
-적합한 작업 	반복적·정형화된 작업	         복잡한 판단이 필요한 작업
+적합한 작업  	반복적·정형화된 작업	         복잡한 판단이 필요한 작업
 
 
 
@@ -37,10 +37,10 @@ AI 서브에이전트
 
 
 이번 주에 만드는 3가지 서브에이전트
-에이전트	역할 	권한 	모델 	배경색
-code-bug-analyzer	코드 리뷰 & 버그 분석 Read-only Opus Blue
-performance-optimizer 성능 최적화 All tools Inherit  Green
-ux-design-advisor UX 디자인 개선 All tools Inherit Orange
+에이전트        	             역할 	            권한 	   모델 	  배경색
+code-bug-analyzer	     코드 리뷰 & 버그 분석  Read-only  Opus     Blue
+performance-optimizer  성능 최적화            All tools  Inherit  Green
+ux-design-advisor      UX 디자인 개선         All tools  Inherit  Orange
 
 
 코드 리뷰어는 Read-only 권한으로 코드를 읽기만 하고 수정은 하지 않습니다. 분석 전문 에이전트는 읽기 전용이 안전합니다.
@@ -57,8 +57,8 @@ ux-design-advisor UX 디자인 개선 All tools Inherit Orange
 
 직렬 처리 vs 병렬 처리
 
-처리 방식	          설명	                   적합한 경우
-직렬 처리 	순서대로 하나씩 실행 	   앞 작업 결과가 뒤 작업에 필요할 때
+처리 방식	        설명	                    적합한 경우
+직렬 처리 	순서대로 하나씩 실행 	    앞 작업 결과가 뒤 작업에 필요할 때
 병렬 처리 	여러 작업을 동시에 실행 	 작업 간 의존성이 없을 때
 
 
@@ -105,10 +105,10 @@ AI 개발팀 구축
 소프트웨어 개발팀 구성과 역할
 실제 개발팀의 역할을 5개 서브에이전트로 재현합니다.
 
-     에이전트	                         역할 	               배경색
-product-manager-prd	        제품 기획, 요구사항 정의(PRD)	    Red
+     에이전트	                         역할 	                배경색
+product-manager-prd	        제품 기획, 요구사항 정의(PRD)	     Red
 backend-architect	          백엔드 설계, 서버·API 구현	        Blue
-frontend-developer		      프런트엔드 UI/UX 구현	            Green
+frontend-developer		        프런트엔드 UI/UX 구현	            Green
 qa-engineer	                테스트, 품질 보증	                Yellow  
 ai-integration-specialist	  AI 모델 연동 전문가	              Purple
 
