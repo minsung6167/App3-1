@@ -1,13 +1,13 @@
 실습 중 자주 발생하는 문제
 
 
-	    문제					                     원인							                            	해결 방법
-API 키 인식 안 됨	  	   	    .env 파일 경로 오류 또는 형식 오류	    Study-04 폴더에 .env 파일 존재 확인, 파일 형식이 "모든 파일"인지 확인
-모델 호출 실패	    		      모델명 오타		 		                    오픈라우터에서 모델명을 다시 복사 (대소문자, 콜론 주의)
-Streamlit 서버 안 뜸	  	    포트 충돌 또는 패키지 미설치	       	  다른 터미널에서 이미 실행 중인지 확인, pip install streamlit 실행
-이미지 인식 결과 영어만 출력	  1단계 프로토타입 한계	         	      정상 동작, 2단계에서 한국어 레시피 생성 가능
-.env 파일이 Git에 올라감	    .gitignore 미설정		 		              .gitignore 에 .env 추가 확인
-텍스트 모델 호출 실패	 	      모델 종료 또는 일시 장애		            1순위: qwen/qwen3.6-plus:free , 2순위: openai/gpt-oss-120b:free로 교체
+	    문제					        원인							                   	해결 방법
+API 키 인식 안 됨	  	        .env 파일 경로 오류 또는 형식 오류	    Study-04 폴더에 .env 파일 존재 확인, 파일 형식이 "모든 파일"인지 확인
+모델 호출 실패	    		    모델명 오타		 		                오픈라우터에서 모델명을 다시 복사 (대소문자, 콜론 주의)
+Streamlit 서버 안 뜸	  	    포트 충돌 또는 패키지 미설치	       	    다른 터미널에서 이미 실행 중인지 확인, pip install streamlit 실행
+이미지 인식 결과 영어만 출력	    1단계 프로토타입 한계	         	    정상 동작, 2단계에서 한국어 레시피 생성 가능
+.env 파일이 Git에 올라감	    .gitignore 미설정		 		        .gitignore 에 .env 추가 확인
+텍스트 모델 호출 실패	 	    모델 종료 또는 일시 장애		            1순위: qwen/qwen3.6-plus:free , 2순위: openai/gpt-oss-120b:free로 교체
 
 
 
@@ -15,11 +15,11 @@ Streamlit 서버 안 뜸	  	    포트 충돌 또는 패키지 미설치	       
  최신 업데이트 — API 연동의 진화
 
 오픈라우터 & AI 모델 변동
-구분			        교재 (2025)				          최신 (2026.04)
-이미지 인식		 Gemma 3 27B (free)	    정상 운영, 후속 Gemma 4 (26B/31B) 출시
-텍스트 생성		 DeepSeek V3.1 (free)	  무료 버전 종료 → Qwen 3.6 Plus (free) 사용
-DeepSeek 최신	       V3.1			        V3.2 / V3.2 Speciale 출시 (2025.12)
-오픈라우터 SDK 	     없음			        @openrouter/sdk 베타 출시 (Node.js)
+구분			     교재 (2025)		           최신 (2026.04)
+이미지 인식		 Gemma 3 27B (free)	       정상 운영, 후속 Gemma 4 (26B/31B) 출시
+텍스트 생성		 DeepSeek V3.1 (free)	   무료 버전 종료 → Qwen 3.6 Plus (free) 사용
+DeepSeek 최신	       V3.1			       V3.2 / V3.2 Speciale 출시 (2025.12)
+오픈라우터 SDK 	       없음			       @openrouter/sdk 베타 출시 (Node.js)
 
 
 
