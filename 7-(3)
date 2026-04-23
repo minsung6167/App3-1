@@ -7,7 +7,7 @@ MCP를 찾는 방법
 
 이번 주에 설치하는 MCP 서버들
 
-MCP 서버	                     역할	                      유형
+MCP 서버                       역할                       유형
 Notion                노션 문서 읽기/쓰기               원격 MCP
 Sequential Thinking   순차적 추론으로 체계적 분석       로컬 MCP
 Context7              최신 문서를 참고하도록 지식 연결  원격 MCP
